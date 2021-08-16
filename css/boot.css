@@ -1,0 +1,498 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.d-flex .fas{
+    color: white;
+}
+.d-flex .far{
+    color: white;
+}
+.fab{
+    color: white;
+}
+.carousel{
+    position: relative;
+    top:10px;
+}
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+} 
+.give{
+    color: rgb(27, 155, 240);
+}
+.fam{
+    color: green;
+}
+.container{
+    position: relative;
+    top: -60px;
+}
+.fa-phone-volume{
+    margin-top: 180px;
+    font-size: 50px;
+}
+#name{
+    border-radius: 50px;
+}
+
+#mail{
+    border-radius: 50px;
+}
+
+#pn{
+    border-radius: 50px;
+}
+
+#send{
+    width: 160px;
+    border-radius: 50px;
+}
+
+.container{
+    height: 380px;
+    margin-top: -10px;
+}
+.img-fluid{
+    margin-top: 10px;
+}
+.card .card-body .container .img-fluid{
+    margin-top: 70px;
+}
+.pbtn{
+    height: 55px;
+    width:60px;
+    position:relative;
+    top: -220px;
+    margin-left: 180px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.container:hover .pbtn{
+    opacity: 1;
+}
+.fa-check{
+    color:rgb(98, 194, 250);
+}
+
+.fa-th{
+    color:rgb(98, 194, 250);
+}
+.content{
+    color: white;
+    border-left: 6px solid rgb(27, 155, 240);
+    height: 40px; 
+}
+
+.row .col-sm-2 .fa-tooth{
+    font-size: 65px;
+    color:rgb(27, 155, 240);
+}
+.section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container2{
+    min-width: 1000px;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+   
+}
+.left{
+    margin-left: 50px; 
+    position: relative;
+}
+
+.right{
+    padding: 30px;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    margin-left: 100px;
+    background-color: rgb(56, 60, 53);
+    align-content: center;
+    justify-content: center;
+    position: relative;
+   margin-left: -120px;
+   margin-top: 45px;
+}
+.col-sm-2{
+    margin-left: 30px;
+}
+
+.fa-tooth{
+    font-size: 65px;
+    color: white;
+}
+.fa-user-nurse
+{
+    font-size: 65px;
+    color: white;
+}
+.fa-grin{
+    font-size: 65px;
+    color: white;
+}
+.fa-clinic-medical{
+    font-size: 65px;
+    color: white;
+}
+
+.abc{
+    margin-top: 10px;
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(27, 155, 240);
+    height: 200px; 
+    background: url('../images/pat3.jpg');    
+}
+.xyz{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.service{
+    text-align: center;
+}
+.line{
+    width: 90px;
+    border: 4px solid rgb(27, 155, 240);
+    margin-left: 47%;
+}
+.text{
+    color: gray;
+}
+.line1{
+    border: 2px solid rgb(27, 155, 240);
+}
+.img2{
+    border: 0px solid black;
+    border-radius: 100px;
+}
+.RM{
+    color: rgb(27, 155, 240);
+}
+
+.container3{
+    display: flex;
+    min-height: 400px;
+    min-width: 100%;
+    position:relative; 
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img{
+    background: url('../images/fam1.jpg');
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 500px;
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    background: rgba(20, 20, 20, 0.904);
+}
+.ss{
+    width: 90px;
+    border: 4px solid rgb(27, 155, 240);
+    margin-left: 30px;
+}
+.test{
+    display: flex;
+    height: 320px;
+    width: 500px;
+    text-align: left;
+    align-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 650px;
+    margin-top:10px;
+    margin-left: -30px;
+    position: relative;  
+}
+
+.Testimonials #carousel_1 .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -60px;
+}
+
+.Testimonials #carousel_1 .carousel-indicators li{
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.Testimonials #carousel_1 .carousel-indicators .active{
+    background-color:orangered;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel slide{
+    width: 700px;
+}
+.fa-quote-right{
+    font-size: 40px;
+    color: gray;
+    margin-left: 200px;
+}
+.card-body1{
+    height: 300px;
+    width: 420px;
+    margin-top: -300px;
+}
+.I{
+    margin-left: 5px;
+}
+.media-object{
+    border-radius: 60px;
+    margin-left: 30px;
+}
+.media-body{
+    text-align: left;
+    margin-left: 10px;
+}
+.fa-star{
+    color: orangered;
+}
+.container5{
+    margin-top: 20px;
+    max-width: 95%;
+    margin-left: 100px;
+}
+.about{
+    margin-top: -70px;
+    margin-left: 700px;
+}
+.contents{
+    border-left: 6px solid rgb(27, 155, 240);
+    height: 70px; 
+}
+.bye{
+    color:  rgb(157, 158, 157);
+}
+.lightblue{
+    background: rgb(207, 211, 207);
+}
+.root-canal{
+    max-height:400px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.rc{
+    display: flexbox;
+    background-color:white;
+    max-width: 700px; 
+    padding: 30px;
+    position: absolute;
+    border-left: 5px solid rgb(27, 155, 240) ;
+    margin-top: -330px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.LM{
+    color: white;
+    background-color: orangered;
+    border: 0px;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin-left:20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+.container7{
+      margin-left: 180px;
+  }
+  /* Style the counter cards */
+  .Latest.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: rgb(102, 58, 58);
+  }
+
+  .may{
+    display: flex;
+    background-color:white;
+    width: 320px;
+    max-height: 300px;
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: -90px;
+    padding: 10px;
+    padding-left: 50px;
+  }
+.news{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    color: white;
+    width: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+    left: 40px;
+}
+.mays{
+    margin-top: -90px;
+    margin-left: 30px;
+    background-color: white;
+    text-align: end;
+    margin-right: 40px;
+    padding: 10px;
+}
+.mayss{
+    margin-top: -30px;
+    margin-left: 30px;
+    background-color: white;
+    text-align: end;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.newsss{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    color: white;
+    width: 40px;
+    margin-top: -80px;
+    text-align: center;
+    margin-bottom: -30px;
+    left: 40px;
+}
+.container8{
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.col-md-3 col-sm-8 col-xs-12 segment-four{
+    margin-left: 90px;
+}
+.fa-map-marker{
+    color: rgb(27, 155, 240) ;
+}
+.fa-phone{
+    color: rgb(27, 155, 240) ;
+}
+.fa-envelope{
+    color: rgb(27, 155, 240) ;
+}
+.RP{
+    width: 90px;
+    border: 4px solid rgb(27, 155, 240);
+}
+.tags{
+    list-style-type:none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.container9.card-columns{
+padding: 0;
+margin: 0;
+}
+.black{
+    width: 98%;
+    border: 1px solid rgb(112, 112, 112);
+}
+.iconsfb{
+    margin-top: -30px;
+    margin-left: 1200px;
+}
+.img-area{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 360px;
+    height: 200px;
+}
+.single-img{
+    padding: 0 5px 5px;
+}
+#btnscrolltop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(27, 155, 240);
+    color: white;
+    outline: none;
+    border: none;
+    font: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#btnscrolltop :active {
+    background: rgb(8, 8, 8);
+}

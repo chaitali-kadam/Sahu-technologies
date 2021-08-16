@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif
+}
+/*Css Variables */
+:root{
+	--navbar-height: 56px;
+}
+
+/*Navigation Bar*/
+#navbar{
+	display: flex;
+	align-items: center;
+}
+
+#navbar::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 5%;
+	width: 100%;
+}
+/*Logo and Image*/
+#logo{
+		margin: 0px 20px;
+}
+
+#logo img{
+			height: 66px;
+			margin: 0px 6px;
+}
+
+/*List Styling*/
+#navbar ul{
+	display:flex;
+}
+
+#navbar ul li{	
+	list-style: none;
+	font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar ul li a{
+	color:black;
+	display:block;
+	padding:3px 30px;
+	border-radius: 20px;
+	text-decoration: none;
+} 
+
+#navbar ul li a:hover{
+	color:rgb(241, 94, 41) ;
+	background-color:whitesmoke;
+}
+
+.add{
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+.bg{
+	position:relative;
+}
+#allicon{
+	margin-left: 150px;
+	cursor: pointer;
+}
+#allicon .fa-user{
+	color: black;
+}
+#blue{
+    display: flex;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    background-color: blue;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px ;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 10px;
+}
+
+.con{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    text-align: center;
+	cursor: pointer;
+}
+
+.Sup{
+	float: left;
+	width: 400px;
+	padding: 10px;
+	height: 450px;
+	text-align: center;
+}
+.contact{
+	height: 730px;
+	width: 1060px;
+	top: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	margin-left: 200px;
+	
+}
+.para{
+	color: rgb(92, 88, 88);
+	font-size: 1.3rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paras{
+	color: rgb(92, 88, 88);
+	font-size: 1.0rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type = text]{
+	float: left;
+	height: 45px;
+	width: 500px;
+	padding: 13px;
+	box-sizing: border-box; 
+	margin-top: 50px;
+	margin-left: 20px;
+}
+input[type = text]::placeholder{
+	text-align: left;
+}
+
+input[type = email]{
+	float: left;
+	height: 45px;
+	width: 500px;
+	padding: 13px ;
+	box-sizing: border-box; 
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+input[type = email]::placeholder{
+	text-align: left;
+}
+#message{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 70px;
+	width: 1000px;
+	padding: 13px 13px;
+}
+
+.send{
+	background-color:blue; 
+  	color:white; 
+  	border: 2px solid lightskyblue;
+	height: 50px;
+	width: 100 px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 10px ;
+	cursor: pointer;
+}
+
+.send:hover {
+	background-color: lightseagreen;
+	color:blue;
+  }
+
+  
+.fab{
+	color:blue;
+	font-size: 25px;	
+}
+
+.ic{
+	padding: 6px;
+	height: 20px;
+	width: 120px;
+	background-color:whitesmoke;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	margin-left: 140px;
+	justify-content: space-evenly;
+}
+.map{
+	height: 280px;
+	width: 250px;
+	position: relative;
+	margin-left: 5px;
+	margin-top: 50px;
+	opacity: 0.9;
+}
+.btn{
+	position: absolute;
+	top: 85%;
+	left: 95px;
+	cursor: pointer;
+	height: 30px;
+	width: 200px;
+}
+
+.fa-question{
+	margin-left: 7px;
+	height: 28px;
+	width: 25px;
+	font-size: 30px;
+	padding: 7px 10px 10px 10px;
+	color:white;
+	border-radius: 90px;
+	border: 3px solid white;
+	background-color: green;
+	position: relative;
+}
+
+
+.container{
+	position: relative;
+	height: 300px;
+	width: 1000px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 2px;
+	text-align: justify;
+	top: 20px;
+}
+
+.box{
+	position: relative;
+	display: flex;
+}
+.ques{
+	height: 60px;
+	width: 70px;
+	display: flex;
+	align-items: flex-start;
+}
+.text{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.container1{
+	position: relative;
+	height: 340px;
+	width: 100%;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	top: 5px;
+	background-color:rgb(182, 177, 177);
+}
+.fa-youtube-square{
+	color:blue;
+	font-size: 25px;	
+}
+.fa-twitter{
+	color:blue;
+	font-size: 25px;	
+}
+.fa-flickr{
+	color:blue;
+	font-size: 25px;	
+}
+.fa-google-plus{
+	color:blue;
+	font-size: 25px;
+}
+.emp{
+	margin-left: 10px;
+	margin-top: 50px;
+	border-radius: 50%;
+}
+
+.fly{
+	padding: 3px;
+	height: 20px;
+	width: 120px;
+	background-color:rgb(182, 177, 177);
+	display: flex;
+	flex-direction: row;
+	align-content: left;
+	justify-content: space-evenly;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	background-color:rgb(10, 10, 41);
+	color: whitesmoke;
+	margin-top: 10px;
+	height: 350px;
+}
+.center{
+	margin-left: 50px;
+}
+.foot{
+	margin-top: 50px;
+	top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.fa-star{
+	color: yellow;
+}
+
+.fa-star-half{
+	color: yellow;
+}
+.far {
+	color: rgba(255, 238, 0, 0.445);
+}
+.star{
+	margin-left: 20px;
+}
+.logo{
+	position:absolute;
+}
+.content {
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.xx{
+	display: flex;
+	flex-direction: row;
+}
+.add{
+	margin-left: 20px;
+	background-color: green;
+	color: white;
+}
+.ro{
+	display: flex;
+	flex-direction: column;
+	left: 20px;
+}
+.cont{
+	font-size: 25px;
+	height: 40px;
+	width: 160px;
+	color: white;
+	background-color: green;
+}
+.cont:hover{
+	background-color: white;
+	color: black;
+}
+.get{
+	margin-left: 50px;
+}
+.copy{
+	color: white;
+	font-family: sans-serif;
+	margin-top: 360px;
+	height: 60px;
+	width: 100%;
+	background-color: rgb(8, 6, 29);
+}
+.ml{
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+.items{
+	color: white;
+	height: 20px;
+	width: 500px;
+	display: flex;
+	margin-left: 400px;
+	justify-content: space-evenly;
+}
+.soc{
+	height: 20px;
+	width: 20px;
+	font-size: 15px;
+	border: 2px solid wheat; 
+	background-color:white;
+	padding:5px 5px 5px 5px;
+	border-radius: 50%; 
+	margin-left: 40px;
+}
+.soc .fab{
+	color: rgb(8, 6, 29);
+}
+.soc .fa{
+	color: rgb(8, 6, 29);
+}
+.sus{
+	color: green;
+}
